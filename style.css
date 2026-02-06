@@ -386,3 +386,42 @@ body {
     width: 100%;
     display: block;
 }
+
+.heading3{
+    margin: 150px auto 20px 100px;
+    color: white;
+    font-size: 30px;
+}
+
+.grid-change{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: auto 150px 20px 100px;
+    gap: 10px;  
+}
+
+.changebox{
+    background-color: #5d5c5c;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.date{
+    color:#bab4b4;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.changes{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500px;
+}
+.link a{
+    margin-left: 100px;
+    margin-right: 150px;
+    color:rgb(204, 62, 62);
+    text-decoration: none;
+    
+}
