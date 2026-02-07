@@ -72,14 +72,13 @@ body {
     margin-top: 32px;
     margin-bottom: 50px;
     padding: 10px 18px;
-    border-radius: 999px;
     font-size: 16px;
     font-weight: 400;
     color: #111;
     background: #ffff;
     cursor: pointer;
     border: none;
-    border-radius: 999;
+    border-radius: 999px;
 }
 
 .image-container {
@@ -148,6 +147,7 @@ body {
     width: auto;
 }
 
+/* Feature Sections */
 .base1 {
     justify-content: space-evenly;
     padding: 0px;
@@ -342,41 +342,45 @@ body {
     color: #888;
 }
 
-.heading2{
+.heading2 {
     color: white;
     font-size: 30px;
     font-weight: 100px;
     margin: 100px auto 10px 100px;
 }
-.grid-box{
+
+.grid-box {
     display: grid;
-    grid-template-columns: repeat(3 , 1fr);
+    grid-template-columns: repeat(3, 1fr);
     margin-left: 100px;
     margin-right: 150px;
-    gap: 10px;  
+    gap: 10px;
 }
 
-.card{
-    background-color:rgb(50, 48, 48);
+.card {
+    background-color: rgb(50, 48, 48);
     display: flex;
     flex-direction: column;
     border-radius: 4px;
     padding: 20px;
 }
-.main-up span{
+
+.main-up span {
     color: white;
     font-size: 20px;
     font-weight: bold;
     display: block;
     margin-bottom: 20px;
 }
-.main-up p{
-    color:#bcbbbb;
+
+.main-up p {
+    color: #bcbbbb;
     font-weight: 400px;
     margin-bottom: 10px;
 }
-.main-up a{
-    color:rgb(204, 62, 62);
+
+.main-up a {
+    color: rgb(204, 62, 62);
     cursor: pointer;
 }
 
@@ -387,41 +391,123 @@ body {
     display: block;
 }
 
-.heading3{
+.heading3 {
     margin: 150px auto 20px 100px;
     color: white;
     font-size: 30px;
 }
 
-.grid-change{
+.grid-change {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin: auto 150px 20px 100px;
-    gap: 10px;  
+    gap: 10px;
 }
 
-.changebox{
+.changebox {
     background-color: #5d5c5c;
     border-radius: 4px;
     padding: 10px;
 }
 
-.date{
-    color:#bab4b4;
+.date {
+    color: #bab4b4;
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 10px;
 }
 
-.changes{
+.changes {
     color: #fff;
     font-size: 20px;
     font-weight: 500px;
 }
-.link a{
+
+.link a {
     margin-left: 100px;
     margin-right: 150px;
-    color:rgb(204, 62, 62);
+    color: rgb(204, 62, 62);
     text-decoration: none;
-    
+}
+
+/*Team / About*/
+.bg-container {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 100px auto 100px;
+    border-radius: 5px;
+    background-color: rgb(50, 48, 48);
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    margin: 300px 10px auto 10px;
+    ;
+}
+
+.right-side span {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.right-side a {
+    color: rgb(190, 60, 60);
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+
+.team img {
+    width: 900px;
+    height: 500px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+/* Final CTA */
+.finalcta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px auto;
+    gap: 10px;
+}
+
+.CTA-heading span{
+    color: white;
+    font-size: 80px;
+}
+
+.final-button button{
+    font-size: 20px;
+    font-weight: 400;
+    color: #111;
+    background: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 999px; 
+    padding: 12px 24px;   
+}
+
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color:rgb(50, 48, 48);
+    }
+
+.footer-card{
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto auto 100px; 
+    gap: 10px;
+}
+.footer-card span{
+    color:#6c6b6b;
+    font-weight: 500;
+}
+.footer-card a{
+    text-decoration: none;
+    color: white;
 }
